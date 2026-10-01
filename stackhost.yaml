@@ -1,8 +1,7 @@
 version: "1"
 
 runtime:
-  language: nodejs
-  version: "22"
+  image: "node:22"
 
 build:
   command: npm install
