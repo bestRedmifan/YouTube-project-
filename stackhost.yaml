@@ -1,5 +1,7 @@
 version: "1"
 
+runtime: nodejs
+
 build:
   command: npm install
 
