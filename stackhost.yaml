@@ -1,6 +1,8 @@
 version: "1"
 
-runtime: nodejs
+runtime:
+  language: nodejs
+  version: "22"
 
 build:
   command: npm install
