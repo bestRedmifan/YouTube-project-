@@ -3,11 +3,9 @@ version: "1"
 runtime:
   image: "node:22"
 
-build:
-  command: npm install
-
-start:
-  command: npm start
+commands:
+  build: npm install
+  start: npm start
 
 env:
   NODE_ENV: production
